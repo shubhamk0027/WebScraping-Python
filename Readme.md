@@ -1,3 +1,3 @@
 # About
-This repository contains few web scraping projects in python using the requests and BeautifulSoup libraries
+This repository contains some web scraping projects in python using requests and BeautifulSoup librarary
 
