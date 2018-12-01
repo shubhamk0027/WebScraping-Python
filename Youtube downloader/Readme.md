@@ -26,5 +26,3 @@ Type the following commands in the Linux Terminal
 Open the terminal and run the program by typing
 * python \path\to\videodwd.py    
 
-# Bugs:
-* Songs might not download everytime because of some network issues     
