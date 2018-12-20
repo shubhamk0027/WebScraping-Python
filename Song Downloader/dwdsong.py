@@ -1,4 +1,3 @@
-from __future__ import unicode_literals
 import youtube_dl
 import os
 import requests,emoji,sys
@@ -23,8 +22,7 @@ opts={
 def dwdsong(link):
     if not os.path.exists(folderName):
         os.mkdir(folderName)
-    else :
-        os.chdir(folderName)
+    os.chdir(folderName)
     print('DOWNLOADING YOUR SONG....')
     with youtube_dl.YoutubeDL(opts) as dl:
         dl.download([link])
