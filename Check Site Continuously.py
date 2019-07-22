@@ -1,3 +1,5 @@
+# this script was made to check registration site of our college continuously and inform the students as soon as it goes live. 
+
 import time
 import requests
 from bs4 import BeautifulSoup as bs
